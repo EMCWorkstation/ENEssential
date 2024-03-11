@@ -1,0 +1,16 @@
+{
+    "cmd_id": "document",
+    "cmd_opRequired": false,
+    "ui_title": "文档",
+    "ui_content": "§e§lEMCNetwork常见问题解答\n\n§r§lQ:服务器是否设置死亡不掉落\n§rA:服务器原则上设置死亡不掉落,且在任何时间任何地点都死亡不掉落,当然我们会收取0~100金币的\"快递费\",以防止玩家恶意刷取死亡数\n\n§r§lQ:服务器如何圈地\n§rA:您可以使用木chu选择第一选择点,在选择第二选择点,然后使用/land add就可以创建领地了",
+    "ui_buttons": [
+        {
+            "ui_name": "返回文档界面",
+            "ui_icon": "textures/ui/cancel.png",
+            "opt_opRequired": false,
+            "opt_cost": 0,
+            "opt_actionType": "menu",
+            "opt_actions": ["document"]
+        }
+    ]
+}

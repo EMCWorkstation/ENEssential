@@ -1,0 +1,32 @@
+{
+    "cmd_id": "report",
+    "cmd_opRequired": false,
+    "ui_title": "举报菜单",
+    "ui_content": "§e你好$player$!\n\n§6请选择您想反馈的内容",
+    "ui_buttons": [
+        {
+            "ui_name": "玩家违规行为举报",
+            "ui_icon": "textures/gui/newgui/anvil-hammer.png",
+            "opt_opRequired": false,
+            "opt_cost": 0,
+            "opt_actionType": "plCmd",
+            "opt_actions": ["report"]
+        },
+        {
+            "ui_name": "服务器建议反馈",
+            "ui_icon": "textures/ui/Feedback.png",
+            "opt_opRequired": false,
+            "opt_cost": 0,
+            "opt_actionType": "menu",
+            "opt_actions": ["feedback"]            
+        },
+        {
+            "ui_name": "返回主菜单",
+            "ui_icon": "textures/ui/cancel.png",
+            "opt_opRequired": false,
+            "opt_cost": 0,
+            "opt_actionType": "menu",
+            "opt_actions": ["menu"]
+        }
+    ]
+}

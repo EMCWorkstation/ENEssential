@@ -1,0 +1,32 @@
+{
+    "cmd_id": "document",
+    "cmd_opRequired": false,
+    "ui_title": "文档",
+    "ui_content": "§e你好$player$!\n\n§6你想查询些什么...",
+    "ui_buttons": [
+        {
+            "ui_name": "常见问题解答",
+            "ui_icon": "textures/ui/icon_book_writable.png",
+            "opt_opRequired": false,
+            "opt_cost": 0,
+            "opt_actionType": "menu",
+            "opt_actions": ["faq"]
+        },
+        {
+            "ui_name": "权限组介绍",
+            "ui_icon": "textures/ui/op.png",
+            "opt_opRequired": false,
+            "opt_cost": 0,
+            "opt_actionType": "menu",
+            "opt_actions": ["permission"]
+        },
+        {
+            "ui_name": "返回主菜单",
+            "ui_icon": "textures/ui/cancel.png",
+            "opt_opRequired": false,
+            "opt_cost": 0,
+            "opt_actionType": "menu",
+            "opt_actions": ["menu"]
+        }
+    ]
+}

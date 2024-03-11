@@ -1,0 +1,16 @@
+{
+    "cmd_id": "document",
+    "cmd_opRequired": false,
+    "ui_title": "文档",
+    "ui_content": "§e§l权限组介绍\n\n§r§l一般权限组\n§r§7§lPlayer/玩家\n§r这是服务器的默认权限组没有特殊权限.\n\n§r§g§lPlus/捐助者\n§r这是服务器捐助者特有的称号,好吧,也没有什么特殊权限\n\n§r§l贡献权限组\n§r§d§lCreator/创作者\n§r服务器免费宣传员,可以在使用一些特殊命令\n\n§r§d§lBuilder/建筑师\n§r服务器免费劳动力(bushi建筑师,可以使用/fly命令以飞行\n\n§r§l管理权限组\n§r§5§lModerator/玩家协管\n§r服务器管理者,拥有OP权限,负责制裁违规人员\n\n§r§c§lAdmin/管理员\n§r服务器的运营和维护者,可以使用OP+控制台命令,不公开招募",
+    "ui_buttons": [
+        {
+            "ui_name": "返回文档界面",
+            "ui_icon": "textures/ui/cancel.png",
+            "opt_opRequired": false,
+            "opt_cost": 0,
+            "opt_actionType": "menu",
+            "opt_actions": ["document"]
+        }
+    ]
+}

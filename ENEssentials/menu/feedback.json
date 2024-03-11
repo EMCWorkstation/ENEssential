@@ -1,0 +1,16 @@
+{
+    "cmd_id": "feedback",
+    "cmd_opRequired": false,
+    "ui_title": "反馈",
+    "ui_content": "§e你好$player$!\n\n§6如您对服务器开发有意见你可以发送邮件至emcnetwork2012@outlook.com来发送反馈,感谢您的服务器的支持!",
+    "ui_buttons": [
+        {
+            "ui_name": "返回上级",
+            "ui_icon": "textures/ui/cancel.png",
+            "opt_opRequired": false,
+            "opt_cost": 0,
+            "opt_actionType": "menu",
+            "opt_actions": ["report"]
+        }
+    ]
+}

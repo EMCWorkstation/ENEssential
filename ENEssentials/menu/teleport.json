@@ -1,0 +1,64 @@
+{
+    "cmd_id": "teleport",
+    "cmd_opRequired": false,
+    "ui_title": "传送",
+    "ui_content": "§e你好$player$!\n\n§6请选择您想传送的地点",
+    "ui_buttons": [
+        {
+            "ui_name": "随机传送",
+            "ui_icon": "textures/ui/icon_random.png",
+            "opt_opRequired": false,
+            "opt_cost": 0,
+            "opt_actionType": "plCmd",
+            "opt_actions": ["rtp"]
+        },
+        {
+            "ui_name": "蛋糕小镇",
+            "ui_icon": "textures/ui/icon_cake.png",
+            "opt_opRequired": false,
+            "opt_cost": 0,
+            "opt_actionType": "plCmd",
+            "opt_actions": ["spawn"]            
+        },
+        {
+            "ui_name": "康德酒馆",
+            "ui_icon": "textures/ui/icon_potion.png",
+            "opt_opRequired": false,
+            "opt_cost": 0,
+            "opt_actionType": "plCmd",
+            "opt_actions": ["warp kdjg"]            
+        },
+        {
+            "ui_name": "资源世界",
+            "ui_icon": "textures/ui/icon_new.png",
+            "opt_opRequired": false,
+            "opt_cost": 0,
+            "opt_actionType": "plCmd",
+            "opt_actions": ["home"]            
+        },
+        {
+            "ui_name": "家",
+            "ui_icon": "textures/ui/icon_recipe_item.png",
+            "opt_opRequired": false,
+            "opt_cost": 0,
+            "opt_actionType": "plCmd",
+            "opt_actions": ["home"]            
+        },
+        {
+            "ui_name": "玩家坐标点",
+            "ui_icon": "textures/ui/icon_map.png",
+            "opt_opRequired": false,
+            "opt_cost": 0,
+            "opt_actionType": "plCmd",
+            "opt_actions": ["warp"]            
+        },
+        {
+            "ui_name": "返回主菜单",
+            "ui_icon": "textures/ui/cancel.png",
+            "opt_opRequired": false,
+            "opt_cost": 0,
+            "opt_actionType": "menu",
+            "opt_actions": ["menu"]
+        }
+    ]
+}

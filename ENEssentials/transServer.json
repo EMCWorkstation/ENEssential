@@ -1,0 +1,50 @@
+[
+    {
+        "ui_name": "工会生存(一服)",
+        "ui_descrption": "工会制生存,携手共进",
+        "ui_icon": "textures/ui/world_glyph_color.png",
+        "server_open": true,
+        "server_ip": "192.168.101.6",
+        "server_port": 19140
+    },
+    {
+        "ui_name": "空岛生存(二服)",
+        "ui_descrption": "一般的空岛生产",
+        "ui_icon": "textures/ui/servers.png",
+        "server_open": false,
+        "server_ip": "192.168.101.6",
+        "server_port": 19134
+    },
+    {
+        "ui_name": "创造服务器(三服)",
+        "ui_descrption": "自由创作吧!!",
+        "ui_icon": "textures/ui/servers.png",
+        "server_open": true,
+        "server_ip": "192.168.101.6",
+        "server_port": 19190
+    },
+    {
+        "ui_name": "乱斗服务器(四服)",
+        "ui_descrption": "尽情厮杀",
+        "ui_icon": "textures/ui/servers.png",
+        "server_open": false,
+        "server_ip": "192.168.101.6",
+        "server_port": 19190
+    },
+    {
+        "ui_name": "小游戏服务器(五服)",
+        "ui_descrption": "体验Happy",
+        "ui_icon": "textures/ui/servers.png",
+        "server_open": false,
+        "server_ip": "192.168.101.6",
+        "server_port": 19190
+    },
+    {
+        "ui_name": "大厅服务器",
+        "ui_descrption": "返回到安全的港口",
+        "ui_icon": "textures/ui/servers.png",
+        "server_open": false,
+        "server_ip": "192.168.101.6",
+        "server_port": 19132
+    }
+]

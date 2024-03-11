@@ -1,0 +1,96 @@
+{
+    "cmd_id": "menu",
+    "cmd_opRequired": false,
+    "ui_title": "主菜单",
+    "ui_content": "§e你好$prefix$$player$!\n§r§e金粒: §6$money$粒\n\n§6欢迎来到本服务器呀,来自远方的朋友",
+    "ui_buttons": [
+        {
+            "ui_name": "传送",
+            "ui_icon": "textures/ui/world_glyph_color.png",
+            "opt_opRequired": false,
+            "opt_cost": 0,
+            "opt_actionType": "menu",
+            "opt_actions": ["teleport"]
+        },
+        {
+            "ui_name": "商店",
+            "ui_icon": "textures/gui/newgui/mob_effects/village_hero_effect.png",
+            "opt_opRequired": false,
+            "opt_cost": 0,
+            "opt_actionType": "plCmd",
+            "opt_actions": ["shop"]            
+        },
+        {
+            "ui_name": "签到",
+            "ui_icon": "textures/ui/recipe_book_icon.png",
+            "opt_opRequired": false,
+            "opt_cost": 0,
+            "opt_actionType": "menu",
+            "opt_actions": ["sign"]
+        },
+        {
+            "ui_name": "公告",
+            "ui_icon": "textures/ui/icon_bell.png",
+            "opt_opRequired": false,
+            "opt_cost": 0,
+            "opt_actionType": "menu",
+            "opt_actions": ["notice"]
+        },
+        {
+            "ui_name": "文档",
+            "ui_icon": "textures/ui/icon_bookshelf.png",
+            "opt_opRequired": false,
+            "opt_cost": 0,
+            "opt_actionType": "menu",
+            "opt_actions": ["document"]
+        }, 
+        {
+            "ui_name": "工会",
+            "ui_icon": "textures/ui/icon_multiplayer.png",
+            "opt_opRequired": false,
+            "opt_cost": 0,
+            "opt_actionType": "plCmd",
+            "opt_actions": ["guild"]
+        },
+        {
+            "ui_name": "飞行",
+            "ui_icon": "textures/items/feather.png",
+            "opt_opRequired": false,
+            "opt_cost": 0,
+            "opt_actionType": "menu",
+            "opt_actions": ["fly"]
+        },
+        {
+            "ui_name": "祈愿",
+            "ui_icon": "textures/items/nether_star.png",
+            "opt_opRequired": false,
+            "opt_cost": 0,
+            "opt_actionType": "menu",
+            "opt_actions": ["row"]
+        },
+        {
+            "ui_name": "设置",
+            "ui_icon": "textures/ui/icon_setting.png",
+            "opt_opRequired": false,
+            "opt_cost": 0,
+            "opt_actionType": "plCmd",
+            "opt_actions": ["settings"]
+        },
+        {
+            "ui_name": "兑换",
+            "ui_icon": "textures/ui/promo_holiday_gift_small.png",
+            "opt_opRequired": false,
+            "opt_cost": 0,
+            "opt_actionType": "plCmd",
+            "opt_actions": ["cdk"]
+        },
+        {
+            "ui_name": "意见与反馈",
+            "ui_icon": "textures/ui/Feedback.png",
+            "opt_opRequired": false,
+            "opt_cost": 0,
+            "opt_actionType": "menu",
+            "opt_actions": ["report"]
+        }
+    ]
+}

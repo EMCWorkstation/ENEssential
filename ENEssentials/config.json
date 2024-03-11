@@ -1,0 +1,45 @@
+{
+    "language": "zh_Hans",
+    "joinToastMessage": {
+        "enabled": true,
+        "title": "§6您好$player$!",
+        "message": "欢迎来到本服务器,输入/menu开始您的旅途"
+    },
+    "loginTeleportToLobby": {
+        "enabled": false,
+        "xPos": -91,
+        "yPos": 100,
+        "zPos": 0,
+        "dimid": 0
+    },
+    "noDamage": false,
+    "playerChatMessage": {
+        "enabled": true,
+        "chatFormat": "§6[§e§l聊天§r§6][§a$ping$ms§6][§3$device$§6]$name$$prefix$§6: §r$message$"
+    },
+    "playerReportOptions": {
+        "reportType": [
+            "使用辅助程序",
+            "恶意修改NBT",
+            "偷窃他人物品",
+            "炸图",
+            "恶意圈地",
+            "不合规的聊天内容",
+            "工作人员滥用职权"
+        ]
+    },
+    "muteToBannedCmd": [
+        "me",
+        "msg",
+        "tell",
+        "m",
+        "gc"
+    ],
+    "playerDeathPunish": {
+        "reduceMoneyRange": [1,200],
+        "reduceExperienceRange": [1,200]
+    },
+    "serverForm": {
+        "automaticOpenMenuOnExecuteCmd": "menu"
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "uid.descrption": "§7该页面显示了您的账户标识信息,这在处理大多事物是非常有用",
+    "uid.info": "\n\n§6账户名称: §b$username$\n§6XUID: §b$xuid$\n§6UUID: §b$uuid$",
+    "uid.cmd_descrption": "账号信息",
+    "uid.title": "账号信息",
+
+    "fly.cmd_descrption": "切换长期飞行状态",
+    "fly.toggle_sucess.on": "§a飞行状态已开启!",
+    "fly.toggle_sucess.off": "§c飞行状态已关闭!",
+    "fly.toggle_sucess.on_con": "飞行状态已开启!",
+    "fly.toggle_sucess.off_con": "飞行状态已关闭!",
+    "fly.help": "§6指令用法: §e/fly <status:boolean> [player:string]\n§c§l需要管理权限或者特殊许可才能使用",
+    "fly.con_help": "指令用法: /fly <status:boolean> <player:string>",
+
+    "flylist.help": "§6指令用法: §e/flylist <modopt: add|remove> <player:string>\n§6指令用法: §e/flylist <listopt: list>",
+    "flylist.help_con": "指令用法: /flylist <modopt: add|remove> <player:string>\n指令用法: /flylist <listopt: list>",
+    "flylist.flylist": "当前允许飞行的玩家XUID: $players$",
+    "flylist.descrption": "编辑允许飞行玩家列表",
+
+    "blacklist.cmd_descrption": "编辑黑名单玩家列表",
+    "blacklist.list": "封禁列表:$players$",
+    "blacklist.selfban": "我封我自己?你可就进不去了AWA",
+    "blacklist.help": "指令用法: \n/blacklist list\n/blacklist add <player:string> <type:enum banned|muted> [reason:string] [expire:int]\n/blacklist remove <player:text>",
+
+    "muted.msg": "§e━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n§c您已被禁言至§6§l$endtime$§r§c.\n\n§6原因: §l§b$reason$§r\n§e━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+
+    "disconnect.banned": "        §c§l$name$,因为被封禁,在连接服务器时被踢出.\n           §6原因: §b$reason$\n§7§l如对本次封禁存在异议,请联系管理员处理(XUID:$xuid$)\n        §r§6此账号已被§c§l永久封禁§r§6,这意味着您§c§l无法加入本服务器\n               §r§6以及§c§l本服务器的分支服务器.",
+    "disconnect.tempbanned": "        §c§l$name$,因为被封禁,在连接服务器时被踢出.\n           §6原因: §b$reason$\n§7如对本次封禁存在异议,请联系管理员处理(XUID:$xuid$)\n        §r§6§l您的禁令将在$endtime$解除.",
+
+    "transServer.title": "切换服务器",
+    "transServer.descrption": "点击按钮以切换访问服务器",
+    "transServer.closed": "§c抱歉,当前服务器已经关闭.",
+    "transServer.opening": "§a可以加入",
+
+    "shop.title": "商店系统",
+    "shop.descrption": "商店系统,用于服务器资源交换\n\n§6金币: §b$money$",
+    "shop.sell": "出售",
+    "shop.buy": "购买",
+    "shop.type": "操作类型",
+    "shop.value": "数量",
+    "shop.form_descrption": "您即将对$item$进行操作\n§6金币: §b$money$",
+    "shop.ok": "您已成功支出$money$金币.",
+    "shop.sell_ok": "您已成功获得$money$金币.",
+    "shop.ides": "购买: $bm$$ | 收购:$sm$$",
+    "shop.no_money": "§6你没有足够的钱或者物品",
+
+    "report.title": "举报玩家",
+    "report.description": "该系统用于举报玩家,当您完成举报后我们的管理员将会尽快处理",
+    "report.player": "举报的玩家",
+    "report.type": "举报类型",
+    "report.reason": "举报原因",
+    "report.confirm": "做有罪推定\n\n该选项仅在您认为被举报人为故意犯罪时才应使用.",
+
+    "menu.title": "服务器菜单",
+    "menu.no_menu": "§c不存在的菜单",
+
+    "notice.title": "公告",
+    "notice.help": "§6指令用法:/notice <notice:string>",
+
+    "suicide.title": "自杀",
+    "suicide.descrption": "您确定要自杀吗?自杀后会掉落50金币,且在大厅服务器自杀会出现特性", 
+
+    "message.join_message": "§7[§a+§7] $player$加入了服务器.",
+    "message.leave_message": "§7[§c-§7] $player$离开了服务器.",
+
+    "death.message": "§7[§c§lDeath§r§7] 您因为死亡掉落了$money$枚金币,$exp$点经验.",
+
+    "staff_chat.description": "在管理员频道发布消息",
+    "staff_chat.help": "请您输入消息后再使用该指令",
+    "staff_chat.chat_format": "§8[§c管理员频道§8]§e$player$§8: §r$message$",
+
+    "generic.ok": "确认",
+    "generic.cancel": "取消",
+    "generic.understand": "我知道啦",
+    "generic.no_permission":"§c您没有权限执行该操作.",
+    "generic.error": "§c执行指令时出现错误.",
+    "generic.sucess": "§a指令执行成功.",
+
+    "console.error": "执行指令时出现错误.",
+    "console.sucess": "指令执行成功"
+}

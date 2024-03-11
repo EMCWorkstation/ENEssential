@@ -1,0 +1,90 @@
+[
+    {
+        "name": "矿石",
+        "id": "ore",
+        "type": "group",
+        "icon": "textures/items/iron_ingot.png",
+        "childItems": [
+            {
+                "id": "minecraft:diamond",
+                "name": "钻石",
+                "icon": "textures/items/diamond.png",
+                "sell-money": 97,
+                "buy-money": 100,
+                "aux": 0
+            },
+            {
+                "id": "minecraft:emerald",
+                "name": "绿宝石",
+                "icon": "textures/items/emerald.png",
+                "sell-money": 58,
+                "buy-money": 60,
+                "aux": 0
+            },
+            {
+                "id": "minecraft:iron_ingot",
+                "name": "铁锭",
+                "icon": "textures/items/iron_ingot.png",
+                "sell-money": 9,
+                "buy-money": 10,
+                "aux": 0
+            },
+            {
+                "id": "minecraft:gold_ingot",
+                "name": "金锭",
+                "icon": "textures/items/gold_ingot.png",
+                "sell-money": 20,
+                "buy-money": 25,
+                "aux": 0
+            },
+            {
+                "id": "minecraft:copper_ingot",
+                "name": "铜锭",
+                "icon": "textures/items/copper_ingot.png",
+                "sell-money": 5,
+                "buy-money": 4,
+                "aux": 0
+            },
+            {
+                "id": "minecraft:lapis_lazuli",
+                "name": "青金石",
+                "icon": "",
+                "sell-money": 13,
+                "buy-money": 16,
+                "aux": 0
+            },
+            {
+                "id": "minecraft:redstone_dust",
+                "name": "红石",
+                "icon": "textures/items/redstone_dust.png",
+                "sell-money": 23,
+                "buy-money": 28,
+                "aux": 0
+            },
+            {
+                "id": "minecraft:raw_iron",
+                "name": "粗铁",
+                "icon": "textures/items/raw_iron.png",
+                "sell-money": 15,
+                "buy-money": 18,
+                "aux": 0
+            },
+            {
+                "id": "minecraft:raw_gold",
+                "name": "粗金",
+                "icon": "textures/items/raw_gold.png",
+                "sell-money": 25,
+                "buy-money": 30,
+                "aux": 0
+            },
+            {
+                "id": "minecraft:ancient_debris",
+                "name": "远古残骸",
+                "icon": "textures/blocks/ancient_debris_side.png",
+                "sell-money": 480,
+                "buy-money": 500,
+                "aux": 0
+            }
+        ]
+    }
+]
